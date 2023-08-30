@@ -75,11 +75,11 @@ GEM
       tzinfo (~> 2.0, >= 2.0.5)
     addressable (2.8.7)
       public_suffix (>= 2.0.2, < 7.0)
-    amazing_print (1.6.0)
+    amazing_print (1.7.2)
     ast (2.4.2)
     base64 (0.2.0)
     benchmark (0.4.0)
-    bigdecimal (3.1.8)
+    bigdecimal (3.1.9)
     bridgetown-feed (3.1.2)
       bridgetown (>= 1.2.0.beta2, < 2.0)
     bridgetown-quick-search (3.0.3)
@@ -90,11 +90,11 @@ GEM
       bridgetown (>= 1.2.0, < 2.0)
       nokogiri
     concurrent-ruby (1.3.4)
-    connection_pool (2.4.1)
-    csv (3.3.1)
+    connection_pool (2.5.0)
+    csv (3.3.2)
     date (3.4.1)
     drb (2.2.1)
-    dry-inflector (1.1.0)
+    dry-inflector (1.2.0)
     erubi (1.13.1)
     faraday (2.12.2)
       faraday-net_http (>= 2.0, < 3.5)
@@ -104,8 +104,8 @@ GEM
       faraday (>= 1, < 3)
     faraday-net_http (3.4.0)
       net-http (>= 0.5.0)
-    ffi (1.17.0-arm64-darwin)
-    ffi (1.17.0-x86_64-linux-gnu)
+    ffi (1.17.1-arm64-darwin)
+    ffi (1.17.1-x86_64-linux-gnu)
     gems (1.3.0)
     hash_with_dot_access (2.1.1)
     i18n (1.14.6)
@@ -124,17 +124,17 @@ GEM
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    logger (1.6.4)
+    logger (1.6.5)
     minitest (5.25.4)
     net-http (0.6.0)
       uri
     nio4r (2.7.4)
-    nokogiri (1.17.2-arm64-darwin)
+    nokogiri (1.18.1-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.17.2-x86_64-linux)
+    nokogiri (1.18.1-x86_64-linux-gnu)
       racc (~> 1.4)
-    nokolexbor (0.5.4-arm64-darwin)
-    nokolexbor (0.5.4-x86_64-linux)
+    nokolexbor (0.6.0-arm64-darwin)
+    nokolexbor (0.6.0-x86_64-linux)
     parser (3.3.6.0)
       ast (~> 2.4.1)
       racc
@@ -175,7 +175,7 @@ GEM
       zeitwerk (~> 2.5)
     stringio (3.1.2)
     thor (1.3.2)
-    tilt (2.4.0)
+    tilt (2.5.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     uri (1.0.2)
@@ -183,6 +183,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  arm64-darwin-23
   x86_64-linux
 
 DEPENDENCIES
@@ -201,4 +202,4 @@ DEPENDENCIES
   ruby2js (~> 5.1)
 
 BUNDLED WITH
-   2.4.1
+   2.6.2
