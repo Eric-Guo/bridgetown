@@ -26,6 +26,8 @@
     "smoothscroll-polyfill": "^0.4.4"
   },
   "resolutions": {
-    "@ruby2js/ruby2js": "5.0.1"
+    "@ruby2js/ruby2js": "~5.0.1",
+    "chalk": "~4.1.2",
+    "esbuild": "^0.19.12"
   }
 }
