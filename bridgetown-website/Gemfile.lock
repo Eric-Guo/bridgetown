@@ -80,7 +80,7 @@ GEM
       bridgetown (>= 1.2.0, < 2.0)
       nokogiri
     colorator (1.1.0)
-    concurrent-ruby (1.2.3)
+    concurrent-ruby (1.3.1)
     connection_pool (2.4.1)
     csv (3.3.0)
     drb (2.2.1)
@@ -116,7 +116,7 @@ GEM
       racc (~> 1.4)
     nokolexbor (0.5.4-arm64-darwin)
     nokolexbor (0.5.4-x86_64-linux)
-    parser (3.3.1.0)
+    parser (3.3.2.0)
       ast (~> 2.4.1)
       racc
     public_suffix (5.0.5)
@@ -177,4 +177,4 @@ DEPENDENCIES
   ruby2js (~> 5.1)
 
 BUNDLED WITH
-   2.5.10
+   2.5.11
