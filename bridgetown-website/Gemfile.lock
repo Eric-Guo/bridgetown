@@ -84,7 +84,7 @@ GEM
     connection_pool (2.4.1)
     csv (3.3.0)
     drb (2.2.1)
-    erubi (1.12.0)
+    erubi (1.13.0)
     faraday (2.9.1)
       faraday-net_http (>= 2.0, < 3.2)
     faraday-follow_redirects (0.3.0)
@@ -110,16 +110,16 @@ GEM
     net-http (0.4.1)
       uri
     nio4r (2.7.3)
-    nokogiri (1.16.5-arm64-darwin)
+    nokogiri (1.16.6-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.16.5-x86_64-linux)
+    nokogiri (1.16.6-x86_64-linux)
       racc (~> 1.4)
     nokolexbor (0.5.4-arm64-darwin)
     nokolexbor (0.5.4-x86_64-linux)
     parser (3.3.3.0)
       ast (~> 2.4.1)
       racc
-    public_suffix (5.0.5)
+    public_suffix (5.1.0)
     puma (6.4.2)
       nio4r (~> 2.0)
     racc (1.8.0)
@@ -136,7 +136,7 @@ GEM
       strscan
     roda (3.81.0)
       rack
-    rouge (4.2.1)
+    rouge (4.3.0)
     ruby2js (5.1.2)
       parser
       regexp_parser (~> 2.1.1)
@@ -155,7 +155,7 @@ GEM
       concurrent-ruby (~> 1.0)
     uri (0.13.0)
     webrick (1.8.1)
-    zeitwerk (2.6.15)
+    zeitwerk (2.6.16)
 
 PLATFORMS
   arm64-darwin-22
@@ -177,4 +177,4 @@ DEPENDENCIES
   ruby2js (~> 5.1)
 
 BUNDLED WITH
-   2.5.11
+   2.5.13
